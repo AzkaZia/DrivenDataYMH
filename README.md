@@ -7,6 +7,13 @@ I also used multiple modeling strategies including multi-output classifiers.
 
 In the final version, I trained separate models to predict Injury Location and Weapon Type
 
+
+📁 File Descriptions
+finalsubmission.ipynb is the main notebook used to train the models for predicting Injury_Location and Weapon_Type. It includes all preprocessing, feature engineering, and training logic.
+
+main_sub.ipynb is used to generate predictions in the required DrivenData submission format. It takes test data, loads the trained models (not included), and outputs a .csv file with predictions.
+
+
 Notes  
 This repository contains the full code used to train and evaluate models during the DrivenData YMH competition.
 
